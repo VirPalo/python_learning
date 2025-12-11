@@ -39,6 +39,9 @@ print('Lista actualizada:', ciudades)
 ciudades.extend(['San Salvador de Jujuy', 'Mar del Plata']) # Extend es como si concatenara las dos listas
 print('Lista actualizada:', ciudades)
 
+ciudades.insert(1, 'Villa Carlos Paz')
+print('Lista actualizada:', ciudades)
+
 # 3. Elimino la ultima ciudad
 ciudad_eliminada = ciudades.pop(-1)
 print('Ciudad eliminada:', ciudad_eliminada)
