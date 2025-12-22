@@ -45,4 +45,25 @@ def clasificar_parcela(superficie):
     else:
         tipo = 'Muy Grande'
     
+    return tipo
+        
+
+# Funcion que agrupa el código principal
+def main():
+    print('\n--- Clasificador de Parcelas Rurales ---')
+    
+    cant = int(obtener_num_positivo('\n¿Cuántas parcelas desea clasificar?'))
+    
+    for i in range(1, cant + 1):
+        print(f'\n--- Parcela {i} ---')
+        superficie = obtener_num_positivo('\nIngrese la superficie en metros cuadrados [m2]: ')
+        clasificacion = clasificar_parcela(superficie)
+        hectareas = superficie / 1000
+        print(f'\nSuperficie: {hectareas:.2f} has. | Clasificación: {clasificacion}')
+        
+
+if __name__ == '__main__':
+    main()
+
+
     
