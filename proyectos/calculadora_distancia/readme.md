@@ -23,5 +23,5 @@ Practicar el desarrollo de scripts en Python, enfocándose en:
 - Documentación
 
 ## Autora
-Virginia Paloma
+Virginia Paloma  
 Python Developer Jr | Ingeniera Agrimensora
